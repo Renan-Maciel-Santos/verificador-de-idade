@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="/Exercício JS/ex15/style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <main>
+        <Section>
+            <div>
+                <p>Ano de Nascimento:
+                    <input type="number" name="txtano" id="txtano" min="0">
+                </p>
+                <p>Sexo:
+                    <input type="radio" name="radsex" id="mas" checked>
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label>
+                </p>
+                <p>
+                    <input type="button" value="Verificar" onclick="verificar()">
+                </p>
+            </div>
+            <div id="res">
+                Preencha os dados acima para ver o resultado!
+            </div>
+        </Section>
+    </main>
+    <footer>
+        <p> &copy; Exercício desenvolvido por Renan Maciel para consolidar aprendizado</p>
+    </footer>
+
+<!-- CÓDIGOS JAVASCRIPT -->
+
+    <script src="/Exercício JS/ex15/script.js"></script>
+</body>
+</html>
